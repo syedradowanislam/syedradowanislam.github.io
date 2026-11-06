@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syed Radowan Islam | Personal Website</title>
+  <meta name="description" content="The personal website of Syed Radowan Islam, a student from Jessore, Bangladesh. Learn about his interests and connect through social media.">
+  <meta name="keywords" content="Syed Radowan Islam, Radowan, Jessore, Bangladesh, student">
+  <meta name="author" content="Syed Radowan Islam">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Syed Radowan Islam">
+  <meta property="og:description" content="Student from Jessore, Bangladesh. Welcome to my personal website.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/profile.jpg">
+  <meta name="theme-color" content="#101827">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">SRI<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#journey">My Journey</a>
+      <a href="#connect">Connect</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">PERSONAL WEBSITE</p>
+        <h1>Syed<br><span>Radowan Islam</span></h1>
+        <p class="intro">A student from Jessore, Bangladesh, learning, growing and working towards a brighter future.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#about">Discover More</a>
+          <a class="button secondary" href="#connect">Get in Touch</a>
+        </div>
+      </div>
+      <div class="portrait-wrap">
+        <div class="portrait-glow"></div>
+        <img class="portrait" src="assets/profile.jpg" alt="Portrait of Syed Radowan Islam">
+        <div class="photo-label"><span class="dot"></span> Based in Bangladesh</div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2>Getting to know <span>Radowan</span></h2>
+      <p class="about-text">
+        Hello! I’m Syed Radowan Islam, also known as Radowan. I’m a student from Jessore, Bangladesh,
+        with a curious mind and a desire to keep learning. I believe that every day brings a new
+        opportunity to gain knowledge, build useful skills and become a better version of myself.
+        I enjoy exploring technology, discovering new ideas and expressing creativity through digital
+        platforms. My journey is still unfolding, and I hope to make it meaningful through patience,
+        hard work and continuous improvement. Thank you for visiting my little corner of the internet.
+      </p>
+    </section>
+
+    <section class="section journey" id="journey">
+      <p class="eyebrow">MY JOURNEY</p>
+      <h2>Learning. Growing. <span>Moving forward.</span></h2>
+      <div class="info-grid">
+        <article class="info-card">
+          <span class="card-number">01</span>
+          <h3>Currently</h3>
+          <p>Student</p>
+          <small>Focused on education and personal development.</small>
+        </article>
+        <article class="info-card">
+          <span class="card-number">02</span>
+          <h3>From</h3>
+          <p>Jessore, Bangladesh</p>
+          <small>My hometown and the place I proudly call home.</small>
+        </article>
+        <article class="info-card">
+          <span class="card-number">03</span>
+          <h3>Interests</h3>
+          <p>Technology & creativity</p>
+          <small>Exploring digital tools, learning and new ideas.</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="connect" id="connect">
+      <p class="eyebrow">LET’S CONNECT</p>
+      <h2>Find me <span>online.</span></h2>
+      <p class="connect-text">You can follow my public profiles and stay connected.</p>
+      <div class="socials">
+        <a href="https://www.facebook.com/share/1JDide3oMn/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook <span>↗</span></a>
+        <a href="https://www.instagram.com/radowan_theugly/" target="_blank" rel="noopener noreferrer">Instagram <span>↗</span></a>
+        <a href="https://www.youtube.com/@islam-rfl" target="_blank" rel="noopener noreferrer">YouTube <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Syed Radowan Islam</span>
+    <span>Made with purpose.</span>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
